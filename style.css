@@ -1,0 +1,64 @@
+/*
+    Colors:
+    red: #FF0000;
+    blue: #0000FF;
+    green: #00FF00;
+*/
+
+/* Exercise 1 */
+/* .container {
+    background-color: #FF0000;
+    width: 1000px;
+    height: 600px;
+}
+
+.blue-square {
+    background-color: #0000FF;
+    width: 100px;
+    height: 100px;
+}
+
+.green-square {
+    background-color: #00FF00;
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
+
+/* Exercise 2 */
+.container {
+    background-color: #FF0000;
+    width: 600px;
+    height: 600px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blue-square {
+    background-color: #0000FF;
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
